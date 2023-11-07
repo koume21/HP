@@ -9,6 +9,9 @@ body {
 h2 {
     text-align:center;
 }
+a {
+    text-decoration:none;
+}
 
 /* ヘッダーのスタイル */
 header {
@@ -114,18 +117,21 @@ li {
 .go_bus {
     width:90%;
     height:4rem;
+    display: inline-block;
     background-color:#e9e8e8;
     color:#4e4e4e;
-    padding:15px;
+    padding:10px 20px;
     box-sizing:border-box;
     border-radius:0.5rem;
     margin:10px auto;
     font-size:1.3rem;
     color:#4e4e4e;
+    transition: transform 0.3s ease;
 }
 .go_bus:hover {
     background-color:#4e4e4e;
     color:white;
+    transform: scale(1.02);
 }
 
 
