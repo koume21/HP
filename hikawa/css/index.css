@@ -48,12 +48,12 @@ nav ul li {
     margin:0px;
 }
 .top-image {
-    width:100%;
+    width:fit-content;
+    height:fit-content;
+    margin:100px auto;
 }
-img {
-    width:40%;
-    display:flex;
-    justify-content:center;
+.top-image img {
+    width:900px;
 }
 /* メインのスタイル */
 
