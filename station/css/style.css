@@ -1,146 +1,43 @@
-/* ページ全体のスタイル */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-}
-h2 {
-    text-align:center;
-}
-a {
-    text-decoration:none;
 }
 
-/* ヘッダーのスタイル */
 header {
-    color: #fff;
-    height:60vh;
-    text-align: center;
-    position: relative;
-}
-.head-h1 {
-    height:100%;
-    background-image: url(../images/_f9f662c0-3907-4861-a979-718a8567411d.png)
-}
-
-
-header h1 {
-    font-size: 48px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    font-family: 'Playfair Display', serif;
-    color:#4e4e4e;
-}
-
-nav {
-    height:3rem;
-    
     background-color: #333;
-}
-nav::after {
-    content: '';
-    display: block;
-    position: relative;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80px;
-    height: 2px;
-    background-color: #ff6b6b;
-}
-nav ul {
-    list-style: none;
-    display:flex;
-    padding: 0;
-    justify-content:center;
-    margin:0;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
 }
 
-nav li {
-    /* display: inline; */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
     margin-right: 20px;
 }
 
 nav a {
+    color: white;
     text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    font-size: 18px;
-    transition: color 0.3s;
 }
 
-nav a:hover {
-    color: #ff6b6b;
+main {
+    padding: 20px;
 }
 
-/* セクションのスタイル */
 section {
-    margin: 20px;
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 40px;
 }
 
-section:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-}
-
-section h2 {
-    color: #333;
-    font-size: 28px;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
-section p {
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-/* リストのスタイル */
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    margin: 10px 0;
-}
-
-.go_bus {
-    width:90%;
-    height:4rem;
-    display: inline-block;
-    background-color:#e9e8e8;
-    color:#4e4e4e;
-    padding:10px 20px;
-    box-sizing:border-box;
-    border-radius:0.5rem;
-    margin:10px auto;
-    font-size:1.3rem;
-    color:#4e4e4e;
-    transition: transform 0.3s ease;
-}
-.go_bus:hover {
-    background-color:#4e4e4e;
-    color:white;
-    transform: scale(1.02);
-}
-
-
-
-/* フッターのスタイル */
 footer {
     background-color: #333;
-    color: #fff;
+    color: white;
     text-align: center;
-    padding: 20px;
-    font-size: 14px;
+    padding: 1em 0;
 }

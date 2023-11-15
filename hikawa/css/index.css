@@ -1,6 +1,11 @@
 html,body {
     margin:0;
     padding:0;
+    height:100vh;
+    background-image:url(../images/nanohana2.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-sizing:border-box;
 }
 ul {
     list-style:none;
@@ -13,7 +18,7 @@ a {
 .head-design {
     width:90%;
     height:6rem;
-    margin:10px auto;
+    margin:20px auto;
     padding:15px;
     box-sizing:border-box;
     border-radius:3rem;
@@ -41,6 +46,14 @@ nav ul li {
 .head-design a,p {
     color:white;
     margin:0px;
+}
+.top-image {
+    width:100%;
+}
+img {
+    width:40%;
+    display:flex;
+    justify-content:center;
 }
 /* メインのスタイル */
 
