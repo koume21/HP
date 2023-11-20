@@ -45,11 +45,7 @@ nav ul li {
     margin-right:10px;
     font-weight:bold
 }
-<<<<<<< HEAD
 .head-design a{
-=======
-.head-design a,p {
->>>>>>> d675d5ec0ac9ba366383c912623977012d462c40
     color:white;
     margin:0px;
 }
@@ -57,16 +53,10 @@ nav ul li {
 /* メイン */
 main {
     margin-top:40px;
-<<<<<<< HEAD
     margin-bottom:40px;
 }
 .famous-design {
     height:780px;
-=======
-}
-.famous-design {
-    height:750px;
->>>>>>> d675d5ec0ac9ba366383c912623977012d462c40
     width:40%;
     box-sizing:border-box;
     border:1px solid black;
@@ -83,10 +73,7 @@ main {
 
 .img-frame {
     width:90%;
-<<<<<<< HEAD
     margin:10px auto;
-=======
->>>>>>> d675d5ec0ac9ba366383c912623977012d462c40
 }
 .famous-design img {
     width:100%;
