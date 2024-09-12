@@ -8,19 +8,62 @@ html,body {
 h1, h2 {
     margin:0;
 }
-
+ul {
+    list-style:none;
+}
+a {
+    text-decoration:none;
+}
+/* ヘッダー */
+.head-design {
+    width:90%;
+    height:6rem;
+    margin:20px auto;
+    padding:15px 30px;
+    box-sizing:border-box;
+    border-radius:3rem;
+    background-color:rgb(0,206,209);
+    display:flex;
+    align-items:center;
+}
+.top-name {
+    font-size:1.5rem;
+    font-weight:bold;
+    margin-left:10px;
+}
+nav {
+    width:30%;
+    margin-left:auto;
+}
+nav ul {
+    width:100%;
+    display:flex;
+    justify-content:end;
+    margin:0;
+}
+nav ul li {
+    margin-right:10px;
+    font-weight:bold
+}
+.head-design a{
+    color:white;
+    margin:0px;
+}
 
 /* メイン */
-
+main {
+    margin-top:40px;
+    margin-bottom:40px;
+}
 .famous-design {
-    height:750px;
+    height:780px;
     width:40%;
     box-sizing:border-box;
     border:1px solid black;
     background-color:white;
     padding:10px;
 }
-.remains {
+.left-content {
     margin-left:10%;
 }
 .foumous-flex {
@@ -30,6 +73,7 @@ h1, h2 {
 
 .img-frame {
     width:90%;
+    margin:0 auto;
 }
 .famous-design img {
     width:100%;
@@ -42,14 +86,15 @@ h1, h2 {
 .explanation h2 {
     width:fit-content;
     background-color:yellow;
-    margin-bottom:20px;
+    text-align:center;
+    margin:0px auto 20px auto;
 }
 .famous-design p {
     font-weight:lighter;
 }
 .button {
     width:80%;
-    margin:0 auto;
+    margin:20px auto 0px auto;
 }
 .button a {
     width:100%;
@@ -59,6 +104,7 @@ h1, h2 {
     border-radius:2rem;
     display:flex;
     justify-content:center;
+    padding:10px 0 10px 0;
 }
 .button a:hover {
     color:white;
@@ -66,12 +112,31 @@ h1, h2 {
 
 }
 
-.airport {
-    width:95%;
-    margin:20px auto;
+.right-content {
+    margin:30% auto 0px auto;
+}
+
+.remains p {
+    font-size:1.4rem;;
 }
 .airport p {
-    font-size:1.5em;
-    line-height:3rem;
-    font-weight:lighter;
+    font-size:1.4rem;
+}
+.hot-water p {
+    font-size:1.2rem;
+}
+.kiln p {
+    font-size:1.6rem;
+}
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
 }
